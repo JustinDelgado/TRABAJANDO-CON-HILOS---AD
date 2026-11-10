@@ -1,0 +1,15 @@
+TRABAJO: IMPLEMENTACIÓN DE HILOS EN JAVA
+Requisitos: JDK 17 o superior.
+
+Cada archivo .java tiene el mismo nombre que su clase pública.
+Para compilar un ejemplo desde la carpeta src:
+  javac -d out AtomicAcquireRelease.java
+Para ejecutarlo:
+  java -cp out AtomicAcquireRelease
+
+Algoritmo principal:
+  javac -d out ProductorConsumidor.java
+  java -cp out ProductorConsumidor
+
+Las salidas de consola del informe son ejemplos orientativos. El orden de los mensajes
+puede variar porque la planificación de hilos depende del sistema operativo y la JVM.
